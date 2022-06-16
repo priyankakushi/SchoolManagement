@@ -37,7 +37,6 @@ router.post("/create", async function (req, res) {
         mobile: mobile,
         email: email,
         password: password,
-        confirmPassword: confirmPassword,
         gender: gender,
         userType: userType
     })
